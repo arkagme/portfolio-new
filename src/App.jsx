@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Github, Linkedin, Mail, Phone, MapPin, ExternalLink, Award, Code, Briefcase, GraduationCap, Terminal , Link} from 'lucide-react';
+import './App.css';
 
 export default function Portfolio() {
   const skills = {
