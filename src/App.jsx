@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Github, Linkedin, Mail, Phone, MapPin, ExternalLink, Award, Code, Briefcase, GraduationCap, Terminal , Link} from 'lucide-react';
+import { Github, Linkedin, Mail, Phone, MapPin, ExternalLink, Award, Code, Briefcase, GraduationCap, Terminal , Link , FileUser , Rss } from 'lucide-react';
 //import './App.css';
 
 export default function Portfolio() {
@@ -127,6 +127,16 @@ export default function Portfolio() {
                className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-500 hover:to-blue-600 rounded-lg transition-all">
               <Linkedin className="w-5 h-5" />
               <span>LinkedIn</span>
+            </a>
+            <a href="https://drive.google.com/file/d/1Vv3SWGD4YOQMVlCh3y9hbt5ZSnUIqwd9/view?usp=sharing" target="_blank" rel="noopener noreferrer" 
+               className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-gray-800 to-gray-900 hover:from-gray-700 hover:to-gray-800 border border-gray-600 rounded-lg transition-all">
+              <FileUser className="w-5 h-5" />
+              <span>Resume</span>
+            </a>
+            <a href="https://blog.arkagme.me/" target="_blank" rel="noopener noreferrer" 
+               className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-gray-800 to-gray-900 hover:from-gray-700 hover:to-gray-800 border border-gray-600 rounded-lg transition-all">
+              <Rss className="w-5 h-5" />
+              <span>Blog</span>
             </a>
           </div>
         </div>
